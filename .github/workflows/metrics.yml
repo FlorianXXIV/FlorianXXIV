@@ -1,0 +1,31 @@
+name: metrics
+on:
+  schedule: [{cron: "0 0 * * *"}]
+  workflow_dispatch:
+  push: {branches: ["main"]}
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          retries: 3
+          retries_delay: 300
+          token: ${{ secrets.METRICS }}
+          user: FlorianXXIV
+          template: classic
+          config_timezone: Europe/Berlin
+          base: header, repositories, metadata, activity, community
+          filename: metrics.svg
+          
+          plugin_lines: yes
+          
+          plugin_wakatime: yes
+          plugin_wakatime_days: 30
+          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
+          plugin_wakatime_token: ${{ secrets.WAKETIME_API_KEY }}
+          
+          plugin_followup: yes
+          plugin_followup_indepth: yes
