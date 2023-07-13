@@ -1,5 +1,7 @@
 ### Hi there 👋
 
+![metrics](metrics.svg)
+
 <!--START_SECTION:waka-->
 
 ```txt
