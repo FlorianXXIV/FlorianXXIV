@@ -5,15 +5,15 @@
 <!--START_SECTION:waka-->
 
 ```txt
-From: 05 July 2023 - To: 11 July 2023
+From: 05 July 2023 - To: 12 July 2023
 
-Total Time: 13 hrs 14 mins
+Total Time: 16 hrs 43 mins
 
-C++              6 hrs 48 mins   █████████████░░░░░░░░░░░░   51.36 %
-Rust             5 hrs 8 mins    █████████▓░░░░░░░░░░░░░░░   38.87 %
-ObjectiveC       18 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.35 %
-CMake            16 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.10 %
-Markdown         15 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.91 %
+C++              10 hrs 5 mins   ███████████████░░░░░░░░░░   60.33 %
+Rust             5 hrs 10 mins   ███████▓░░░░░░░░░░░░░░░░░   30.90 %
+ObjectiveC       20 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.09 %
+CMake            16 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.69 %
+Markdown         15 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.52 %
 ```
 
 <!--END_SECTION:waka-->
