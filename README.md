@@ -2,22 +2,6 @@
 
 ![metrics](metrics.svg)
 
-<!--START_SECTION:waka-->
-
-```txt
-From: 05 July 2023 - To: 16 July 2023
-
-Total Time: 23 hrs 1 min
-
-C++              11 hrs 21 mins  ████████████▒░░░░░░░░░░░░   49.35 %
-Rust             9 hrs 15 mins   ██████████░░░░░░░░░░░░░░░   40.20 %
-Markdown         35 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.58 %
-TOML             30 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.19 %
-CMake            25 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.82 %
-```
-
-<!--END_SECTION:waka-->
-
 <!--
 **FlorianXXIV/FlorianXXIV** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
